@@ -1,24 +1,17 @@
-* {
-margin: 0;
-padding: 0;
+@import url('https://fonts.googleapis.com/css2?family-Chakra+Petch:w ght@400:700&display=swap'); 
+
+:root {
+    --cor-de-fundo: #1e1e1e;
+    --verde: #6fff57;
+    --branco: #ffffff;
+    --botao--ativo: #3a375e;
+    --botao-inativo: rgba(58,55,94,0.5);
+    --botao-fundo: rgba(58,55,94,0.3);
 
 }
 body {
-   background-color: #383d58 ;
-   color: white;
-   display: flex;
-   justify-content: space-around;
-   padding: 24px 0;
-   font-size: 24px;
-}
-
-.cabecalho-imagem {
-    width: 20%;
-}
-
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0 16px;
-    padding: 24px;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'chakra petch',sans-serif;
 
 }
